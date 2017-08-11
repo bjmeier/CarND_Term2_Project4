@@ -39,12 +39,8 @@ To achieve the goal of safely maximizing the top speed, the model was manually t
 
 ### Summary of Final Model 
 
-Kp = 0.0625
-
-Ki = 0.0
-
-Kd = 1.3
-
-Throttle = 0.66
-
-Top Speed = 73 mph
+- Kp = 0.0625
+- Ki = 0.0
+- Kd = 1.3
+- Throttle = 0.66
+- Top Speed = 73 mph
