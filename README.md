@@ -11,10 +11,10 @@ This project utilizes the Udacity Simulator to control the path of a car. The pa
 
 ### Equations
 
-- Proportional Error, Perror = Kp x CTE[k]
-- Integral Error, Ierror = Ki x sum(CTE[i]|i = 1 to k)
-- Derivative Error, Derror = Kd x (CTE[k] - CTE[k-1])
-- SA = - Kp x CTE[k] - (Ki x sum(CTE[i]|i = 1 to k) - Kd x (CTE[k] - CTE[k-1])
+- Proportional Error, P_error = Kp x CTE[k]
+- Integral Error, I_error = Ki x sum(CTE[i]|i = 1 to k)
+- Derivative Error, D_error = Kd x (CTE[k] - CTE[k-1])
+- SA = - Kp x CTE[k] - Ki x sum(CTE[i]|i = 1 to k) - Kd x (CTE[k] - CTE[k-1])
 
 ---
 
